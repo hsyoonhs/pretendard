@@ -288,12 +288,12 @@ brew tap homebrew/cask-fonts
 brew install font-pretendard
 ```
 
--   [nix](https://github.com/NixOS/nixpkgs)
+-   [Nix](https://search.nixos.org/packages?query=pretendard)
 
 ```nix
 # configuration.nix
 {
-  fonts.fonts = with pkgs; [
+  fonts.packages = with pkgs; [
     pretendard
   ];
 }
@@ -346,7 +346,7 @@ Thank you so much for your contribution to Pretendard.
 
 [@quiple](https://github.com/quiple): Worked improving Japanese Readme translation.
 
-[@sudosubin](https://github.com/sudosubin): Added Pretendard to homebrew-cask-fonts and nix.
+[@sudosubin](https://github.com/sudosubin): Added Pretendard to homebrew-cask-fonts and Nix.
 
 ## Issues
 
